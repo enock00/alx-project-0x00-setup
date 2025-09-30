@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../components/Button";
+import Button from "@/components/Button";
 
 export default function Landing() {
   return (
@@ -10,21 +10,21 @@ export default function Landing() {
       <div className="flex gap-4">
         <Button title="Small - sm" styles="text-sm px-2 py-1 rounded-sm" />
         <Button title="Small - md" styles="text-sm px-2 py-1 rounded-md" />
-        <Button title="Small - full" styles="text-sm px-2 py-1 rounded-full" />
+        <Button title="Small - full" styles="text-sm px-2 py-1 rounded-lg" />
       </div>
 
       {/* Medium Buttons */}
       <div className="flex gap-4">
         <Button title="Medium - sm" styles="text-base px-4 py-2 rounded-sm" />
         <Button title="Medium - md" styles="text-base px-4 py-2 rounded-md" />
-        <Button title="Medium - full" styles="text-base px-4 py-2 rounded-full" />
+        <Button title="Medium - full" styles="text-base px-4 py-2 rounded-lg" />
       </div>
 
       {/* Large Buttons */}
       <div className="flex gap-4">
         <Button title="Large - sm" styles="text-lg px-6 py-3 rounded-sm" />
         <Button title="Large - md" styles="text-lg px-6 py-3 rounded-md" />
-        <Button title="Large - full" styles="text-lg px-6 py-3 rounded-full" />
+        <Button title="Large - full" styles="text-lg px-6 py-3 rounded-lg" />
       </div>
     </div>
   );
